@@ -1,0 +1,32 @@
+{
+  "name": "gdosolar",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@datapunt/matomo-tracker-react": "^0.5.1",
+    "@headlessui/react": "^1.7.14",
+    "@heroicons/react": "^2.0.18",
+    "@vercel/analytics": "^1.0.2",
+    "chart.js": "^3.8.0",
+    "classnames": "^2.3.1",
+    "next": "^14.0.4",
+    "react": "18.2.0",
+    "react-chartjs-2": "^4.3.1",
+    "react-dom": "18.2.0",
+    "react-player": "^2.14.1",
+    "react-router-dom": "^6.3.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "eslint": "8.19.0",
+    "eslint-config-next": "12.2.2",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.6"
+  }
+}

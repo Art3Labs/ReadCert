@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.smalllegend {
+  background-color: rgba(35, 55, 75, 0.9);
+  color: #fff;
+  padding: 6px 12px;
+  font-family: monospace;
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 12px;
+  border-radius: 4px;
+}
+
+.colorlegend {
+  background-color: rgba(35, 55, 75, 0.9);
+  color: #fff;
+  padding: 5px 5px;
+  font-family: monospace;
+  z-index: 2;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin:  45px 12px;
+  border-radius: 4px;
+}
+
+.mapboxgl-canvas {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.mapboxgl-ctrl-logo {
+  display: none !important;
+}
+
+.mapboxgl-ctrl-attrib{
+  display: none !important;
+}
+
+input[type="date"] { 
+  color: rgb(100 116 139);
+}
+
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  height: auto;
+  color: transparent;
+  background: transparent;}
+
+iframe {
+    height: auto;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+  }
+
+/* YourComponent.css */
+
+/* Styles for the background container */
+.background-container {
+  height: ; /* Adjust as needed based on your design */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Styles for the image on mobile devices */
+.mobile-image {
+  display: none;
+}
+
+/* Styles for the video on larger screens */
+.video-container {
+  display: none;
+}
+
+/* Media query to show the image on screens with a maximum width of 768 pixels (typical mobile devices) */
+@media only screen and (max-width: 768px) {
+  .mobile-image {
+    display: block;
+    width: 100%;
+  }
+  .video-container {
+    display: none;
+  }
+}
+
+/* Media query to show the video on screens larger than 768 pixels */
+@media only screen and (min-width: 769px) {
+  .mobile-image {
+    display: none;
+  }
+  .video-container {
+    display: block;
+    width: 100%;
+    max-width: 800px; /* Adjust this based on your design */
+    margin: 0 auto;
+  }
+}
