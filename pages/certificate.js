@@ -4,9 +4,7 @@ import React from 'react';
 import Link from 'next/link';
 import Footer from '../components/Footer/Footer'
 import BigNavbar from '../components/Nav/BigNavbar'
-import VideoBackground from '../components/Funcionalidad/VideoBackground3';
 
-import ReactPlayer from 'react-player';
 
 export default function Index() {
 

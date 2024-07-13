@@ -4,10 +4,7 @@ import React from 'react';
 import Link from 'next/link';
 import Footer from '../components/Footer/Footer'
 import BigNavbar from '../components/Nav/BigNavbar'
-import VideoBackground from '../components/Funcionalidad/VideoBackground';
-import ContactForm from '../components/Funcionalidad/ContactForm';
-import ReactPlayer from 'react-player';
-import { PaperClipIcon } from '@heroicons/react/20/solid'
+
 export default function Index() {
 
   return (
@@ -17,7 +14,7 @@ export default function Index() {
 
       <section className='bg-gradient-to-b from-indigo-900 to-gray-400 py-5 '>
 
-        <div className='p-4 mx-auto max-w-screen-xl lg:pt-5'>
+        <div className='p-4 mx-auto max-w-screen-xl lg:pt-2'>
           <div className='mx-auto text-center lg:mb-4'>
             <h1 className='mb-4 text-4xl lg:text-4xl tracking-tight font-extrabold text-white'> Reading Certification </h1>
             <h2 className='font-light text-white  text-center text-xl my-4 '>
