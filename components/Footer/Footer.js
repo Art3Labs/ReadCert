@@ -19,19 +19,19 @@ function Footer() {
             <p className='uppercase font-extrabold text-gray-500 md:mb-6'>Site map</p>
             <ul className='list-reset mb-6'>
               <li className='mt-2 inline-block mr-2 md:block md:mr-0'>
-                <Link href='/consumo-de-energia-renovable'>
+                <Link href='/'>
                   <div className='font-light no-underline hover:underline text-gray-800 hover:text-green-500'>Test and certificate</div>
                 </Link>
               </li>
             
               <li className='mt-2 inline-block mr-2 md:block md:mr-0'>
-                <Link href='/consumo-de-energia-renovable'>
+                <Link href='/user-profile'>
                   <div className='font-light no-underline hover:underline text-gray-800 hover:text-green-500'>Learning path
                   </div>
                 </Link>
               </li>
               <li className='mt-2 inline-block mr-2 md:block md:mr-0'>
-                <Link href='/consumo-de-energia-renovable'>
+                <Link href='/user-profile'>
                   <div className='font-light no-underline hover:underline text-gray-800 hover:text-green-500'>Skills profile
                   </div>
                 </Link>
@@ -43,7 +43,7 @@ function Footer() {
 
 
           <div className='flex-1'>
-            <p className='uppercase font-extrabold text-gray-500 md:mb-6'>Sponsors</p>
+            <p className='uppercase font-extrabold text-gray-500 md:mb-2'>Sponsors</p>
             <div className='grid gap-8 lg:grid-cols-2 sm:grid-cols-2 mx-auto content-center justify-center' style={{ maxWidth: "1200px" }} >
               <div className="col">
                 <ul className='list-reset mb-6'>
@@ -62,7 +62,7 @@ function Footer() {
               </div>
 
               <div className="col">
-                <ul className='list-reset mb-6'>
+                <ul className='list-reset mb-'>
            
                   <p className='uppercase font-extrabold text-gray-400 md:mb-2'>Silver</p>
                   <li className='mt-2 inline-block mr-2 md:block md:mr-0'>
@@ -96,6 +96,9 @@ function Footer() {
               </li>
               <li className='mt-2 inline-block mr-2 md:block md:mr-0'>
                 <div className='font-light no-underline hover:underline text-gray-800 hover:text-green-500'>Mattia Besana</div>
+              </li>
+              <li className='mt-2 inline-block mr-2 md:block md:mr-0'>
+                <div className='font-light no-underline hover:underline text-gray-800 hover:text-green-500'>Richard Karas</div>
               </li>
             </ul>
           </div>
