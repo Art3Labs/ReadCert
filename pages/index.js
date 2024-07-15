@@ -12,7 +12,7 @@ export default function Index() {
 
       <BigNavbar />
 
-      <section className='bg-gradient-to-b from-indigo-900 to-gray-400 py-5 px-5 '>
+      <section className='bg-gradient-to-b from-indigo-900 to-gray-400 py-5 W '>
 
         <div className='p-4 mx-auto max-w-screen-xl lg:pt-2'>
           <div className='mx-auto text-center lg:mb-4'>
