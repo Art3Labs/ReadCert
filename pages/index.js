@@ -21,7 +21,7 @@ export default function Index() {
               certify and share your new skills
             </h2>
           </div>
-          <div className='px-5 grid gap-8 lg:grid-cols-1 sm:grid-cols-1 mx-auto content-center justify-center px-5' style={{ maxWidth: "1200px" }} >
+          <div className='px-2 grid gap-8 lg:grid-cols-1 sm:grid-cols-1 mx-auto content-center justify-center px-5' style={{ maxWidth: "1200px" }} >
 
             <article className='p-4 bg-white rounded-lg  border-gray-200 shadow-md mx-auto' style={{ maxWidth: "450px" }}>
               <div className='flex justify-between items-center mb-5 text-gray-500'>
@@ -64,14 +64,14 @@ export default function Index() {
             </article>
 
             <article className='p-4 bg-white rounded-lg  border-gray-200 shadow-md mx-auto' style={{ maxWidth: "900px" }}>
-              <div className="p-4 sm:px-0">
+ 
                 <h3 className="text-base font-semibold leading-7 text-gray-">Test generated</h3>
-              </div>
-              <div className="flex items-center justify-center w-full" >
-                <dl className="divide-y divide-gray-100">
+          
+              <div className="grid grid-cols-1 gap-2 ">
+              
                   <div className="px-4 py-6 sm:grid sm:grid-cols-1 sm:gap-2 sm:px-0">
 
-                    <dd className="mt-1 text-sm font-semibold text-gray-700 sm:mt-0">  Question 1:       What is the Build-Measure-Learn feedback loop and why is it important? </dd>
+                    <p className="mt-1 text-sm font-semibold text-gray-700">  Question 1:       What is the Build-Measure-Learn feedback loop and why is it important? </p>
 
                     <div className="relative mt-2 rounded-md shadow-sm">
                       <input
@@ -86,7 +86,7 @@ export default function Index() {
                   </div>
                   <div className="px-4 py-6 sm:grid sm:grid-cols-1 sm:gap-2 sm:px-0">
 
-                    <dd className="mt-1 text-sm font-semibold leading-6 text-gray-700 sm:col-span-2 sm:mt-0">Question 2:        Define the  Minimum Viable Product (MVP) concept</dd>
+                    <p className="mt-1 text-sm font-semibold leading-6 text-gray-700 "> Question 2:        Define the  Minimum Viable Product (MVP) concept</p>
 
                     <div className="relative mt-2 rounded-md shadow-sm">
                       <input
@@ -101,7 +101,7 @@ export default function Index() {
                   </div>
                   <div className="px-4 py-6 sm:grid sm:grid-cols-1 sm:gap-2 sm:px-0">
 
-                    <dd className="mt-1 text-sm font-semibold leading-6 text-gray-700 sm:col-span-2 sm:mt-0">Question 3:         What does "validated learning," mean and how does it differ from traditional product development approaches? </dd>
+                    <p className="mt-1 text-sm font-semibold leading-6 text-gray-700 ">Question 3:         What does "validated learning," mean and how does it differ from traditional product development approaches? </p>
 
                     <div className="relative mt-2 rounded-md shadow-sm">
                       <input
@@ -115,7 +115,7 @@ export default function Index() {
                     </div>
                   </div>
                   <div className="px-4 py-6 sm:grid sm:grid-cols-1 sm:gap-2 sm:px-0">
-                    <dd className="mt-1 text-sm font-semibold leading-6 text-gray-700 sm:col-span-2 sm:mt-0"> Question 4:       Explain the concept of a "pivot" and provide an example of a situation where a startup might need to pivot.</dd>
+                    <p className="mt-1 text-sm font-semibold leading-6 text-gray-700 "> Question 4:       Explain the concept of a "pivot" and provide an example of a situation where a startup might need to pivot.</p>
                     <div className="relative mt-2 rounded-md shadow-sm">
                       <input
                         type="text"
@@ -129,7 +129,7 @@ export default function Index() {
                   </div>
                   <div className="px-4 py-6 sm:grid sm:grid-cols-1 sm:gap-2 sm:px-0">
 
-                    <dd className="mt-1 text-sm font-semibold leading-6 text-gray-700 sm:col-span-2 sm:mt-0">Question 5:       Describe the "Five Whys" technique and its role in problem-solving within the Lean Startup framework. </dd>
+                    <p className="mt-1 text-sm font-semibold leading-6 text-gray-700">Question 5:       Describe the "Five Whys" technique and its role in problem-solving within the Lean Startup framework. </p>
 
 
                     <div className="relative mt-2 rounded-md shadow-sm">
@@ -139,12 +139,12 @@ export default function Index() {
                         id="price"
                         className="block w-full rounded-md border-0 py-1.5 pl-7 pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                         placeholder="Write your answer"
-                        style={{ minWidth: "500px" }}
+             
                       />
                     </div>
                   </div>
 
-                </dl>
+              
               </div>
               </article>
 
