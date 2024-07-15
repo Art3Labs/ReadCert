@@ -83,7 +83,7 @@ export default function Index() {
                   <div className='flex items-center space-x-4'>
                   </div>
                   <div className='inline-flex items-center font-medium text-primary-600 hover:underline'>
-                    See more courses recommendations
+                    See more course recommendations
                     <svg
                       className='ml-2 w-4 h-4'
                       fill='currentColor'
@@ -105,11 +105,9 @@ export default function Index() {
                 Sign in to your account
               </h2>
               <p className="mt-2 mb-4  text-center text-sm text-gray-500">
-                Not a member?{' '}
-                <a href="#" className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500">
-                  Create your account, it is free!
-                </a>
+              Keep track of your learnings and skills.  
               </p>
+          
               <form className="space-y-6" action="#" method="POST">
                 <div>
                   <label htmlFor="email" className="block text-sm font-medium leading-6 text-gray-900">
@@ -148,6 +146,7 @@ export default function Index() {
                       className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                     />
                   </div>
+                  
                 </div>
 
                 <div>
@@ -158,6 +157,13 @@ export default function Index() {
                     Sign in
                   </button>
                 </div>
+                <p className="mt-2 mb-4  text-center text-sm text-gray-500">
+    Not a member?{' '}
+                <a href="#" className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500">
+                  Create your account, it is free!
+                </a>
+              
+              </p>
               </form>
 
             </div>
