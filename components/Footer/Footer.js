@@ -47,41 +47,14 @@ function Footer() {
             <div className='grid gap-8 lg:grid-cols-2 sm:grid-cols-2 mx-auto content-center justify-center' style={{ maxWidth: "1200px" }} >
               <div className="col">
                 <ul className='list-reset mb-6'>
-                  <p className='uppercase font-extrabold text-yellow-500 md:mb-2'>Gold</p>
-                  <li className='mt-2 inline-block mr-2 md:block md:mr-0'>
+              
                     <div className='font-light no-underline hover:underline text-gray-800 hover:text-green-500'>Dr. Prof. WIlliam B. </div>
-                  </li>
-                  <li className='mt-2 inline-block mr-2 md:block md:mr-0'>
-                    <div className='font-light no-underline hover:underline text-gray-800 hover:text-green-500'>Thomas H. </div>
-                  </li>
-                
-                  <li className='mt-2 inline-block mr-2 md:block md:mr-0'>
-                    <div className='font-light no-underline hover:underline text-gray-800 hover:text-green-500'>Dr. Justas S </div>
-                  </li>
+         
                 </ul>
               </div>
 
-              <div className="col">
-                <ul className='list-reset mb-'>
-           
-                  <p className='uppercase font-extrabold text-gray-400 md:mb-2'>Silver</p>
-                  <li className='mt-2 inline-block mr-2 md:block md:mr-0'>
-                    <div className='font-light no-underline hover:underline text-gray-800 hover:text-green-500'>Dr. Ivan P </div>
-                  </li>
-                  <li className='mt-2 inline-block mr-2 md:block md:mr-0'>
-                  <div className='font-light no-underline hover:underline text-gray-800 hover:text-green-500'>Dr. José María </div>
-                 </li>
-                  <li className='mt-2 inline-block mr-2 md:block md:mr-0'>
-                  <div className='font-light no-underline hover:underline text-gray-800 hover:text-green-500'>Raúl Oc.  </div>
-                  </li>
-                  <li className='mt-2 inline-block mr-2 md:block md:mr-0'>
-                  <div className='font-light no-underline hover:underline text-gray-800 hover:text-green-500'>Ignacio D </div>
-                  </li>
-                  <li className='mt-2 inline-block mr-2 md:block md:mr-0'>
-                  <div className='font-light no-underline hover:underline text-gray-800 hover:text-green-500'>Pablo C. </div>
-                  </li>
-                </ul>
-              </div>
+
+      
             </div>
           </div>
 
@@ -98,7 +71,7 @@ function Footer() {
                 <div className='font-light no-underline hover:underline text-gray-800 hover:text-green-500'>Mattia Besana</div>
               </li>
               <li className='mt-2 inline-block mr-2 md:block md:mr-0'>
-                <div className='font-light no-underline hover:underline text-gray-800 hover:text-green-500'>Richard Karas</div>
+                <div className='font-light no-underline hover:underline text-gray-800 hover:text-green-500'>Richard K</div>
               </li>
             </ul>
           </div>
