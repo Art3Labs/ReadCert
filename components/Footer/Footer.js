@@ -48,7 +48,7 @@ function Footer() {
               <div className="col">
                 <ul className='list-reset mb-6'>
               
-                    <div className='font-light no-underline hover:underline text-gray-800 hover:text-green-500'>Dr. Prof. WIlliam B. </div>
+                    <div className='font-light no-underline hover:underline text-gray-800 hover:text-green-500'>Dr. Prof. John W. Branch. </div>
          
                 </ul>
               </div>
@@ -71,7 +71,7 @@ function Footer() {
                 <div className='font-light no-underline hover:underline text-gray-800 hover:text-green-500'>Mattia Besana</div>
               </li>
               <li className='mt-2 inline-block mr-2 md:block md:mr-0'>
-                <div className='font-light no-underline hover:underline text-gray-800 hover:text-green-500'>Richard K</div>
+                <div className='font-light no-underline hover:underline text-gray-800 hover:text-green-500'>Richard Karas</div>
               </li>
             </ul>
           </div>
