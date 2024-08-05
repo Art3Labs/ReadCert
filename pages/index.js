@@ -20,6 +20,9 @@ export default function Index() {
             <h2 className='font-light text-white  text-center text-xl my-4 '>
               certify and share your new skills
             </h2>
+            <h3 className='font-light text-white  text-center text-l my-4 '>
+              We are 3 collaborators, targeting a functional app by September/ October 2024. For further inquires contact@jfbranch.com 
+            </h3>
           </div>
           <div className='px-2 grid gap-8 lg:grid-cols-1 sm:grid-cols-1 mx-auto content-center justify-center px-5' style={{ maxWidth: "1200px" }} >
 
